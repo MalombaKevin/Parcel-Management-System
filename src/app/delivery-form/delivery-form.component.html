@@ -1,1 +1,36 @@
+<main>
 
+    <div class="content">
+
+        <div class="content-image">
+            <img src="https://i.pinimg.com/originals/24/7d/9e/247d9e0c94a2ed2b68e7a09f836f45ab.png" alt="">
+        </div>
+
+        <div class="content-form">
+
+            <form action="" [formGroup]="form" (ngSubmit)="book()">
+
+                <div class="form-group">
+                    <label for="">Enter Your Name</label> <br>
+                    <input type="text" placeholder="eg. John Doe"  formControlName="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Enter Your Email</label><br>
+                    <input type="email" placeholder="eg.johndoe@gmail.com"  formControlName="email" pattern="">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Enter Your Destination</label><br>
+                    <input type="text" placeholder="eg. Nyeri"  formControlName="destination">
+                </div>
+                <br> <br>
+
+                <button type="submit"> Make Request</button>
+
+
+            </form>
+
+        </div>
+    </div>
+</main>

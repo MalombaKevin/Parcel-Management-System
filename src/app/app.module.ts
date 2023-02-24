@@ -7,6 +7,7 @@ import { DeliveryFormComponent } from './delivery-form/delivery-form.component';
 import { HomeComponent } from './home/home.component';
 import { ParcelsComponent } from './parcels/parcels.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
