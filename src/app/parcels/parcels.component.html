@@ -1,0 +1,14 @@
+<main>
+    <h2>Parcels</h2> <br>
+
+    <div class="parcels">
+
+        <div class="parcels-card" *ngFor='let parcel of parcel'>
+           <p> <span style="color: blue;">Name:</span> <br>
+            {{parcel.name}}</p>
+           <p> <span style="color: blue;" >Email:</span> <br>{{parcel.email}}</p>
+           <p><span style="color: blue;">Destination:</span><br> {{parcel.destination}}</p>
+        </div>
+
+    </div>
+</main>

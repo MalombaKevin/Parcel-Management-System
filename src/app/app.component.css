@@ -1,0 +1,21 @@
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-auth{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
